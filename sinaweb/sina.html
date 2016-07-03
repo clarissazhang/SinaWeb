@@ -1,0 +1,2240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<title>新浪首页</title>
+<script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+
+<link style="text/css" rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="header_bar">
+	<div class="header_box">
+		<div class="header_list comWidth">
+	<ul class="header_left fl">
+		<li ><a href="#" class="header_link">设为首页</a></li>
+		<li><a href="#"  class="header_link down_link">我的菜单<i class="pull_down"></i></a>
+		<dl class="pulldownlist" >
+			<dd><a>新闻</a></dd>
+			<dd><a>体育</a></dd>
+			<dd><a>财经</a></dd>
+			<dd><a>娱乐</a></dd>
+		</dl></li>
+		<li><a href="#" class="header_link">手机新浪网</a></li>
+		<li><a href="#" class="header_link down_link">移动客户端<i class="pull_down"></i></a>
+		<dl class="pulldownlist" >
+			<dd><a>新浪微博</a></dd>
+			<dd><a>新浪新闻</a></dd>
+			<dd><a>新浪体育</a></dd>
+			<dd><a>新浪财经</a></dd>
+			<dd><a>天气通</a></dd>
+		</dl></li>
+		
+		
+	</ul>
+	<a href="#" class="header_close fr" ></a>
+	<ul class="header_left fr">
+		<!--已登录
+		<li>
+			<span>您好！</span>
+			<a href="#" class="header_link down_link">C_n1<i class="pull_down"></i></a>
+		<dl class="pulldownlist widthchange" >
+			<dd><a>我的收藏</a></dd>
+			<dd><a>退出</a></dd>
+		</dl></li>
+		-->
+		<!--未登录-->
+		<li>
+			
+			<a href="#" class="header_link down_link loginpull">登录</a>
+			<div class="login">
+				<a class="loginclose"> </a>
+			<div class="loginmain">
+		    <p>新浪微博、博客、邮箱帐号，请直接登录</p>
+				<dl>
+					<dd class="logintype">
+						<span>微博/博客/邮箱/手机号</span>
+					 <input type="text"/>
+			        
+					</dd>
+					<dd class="logintype">
+						<span>请输入密码</span>
+					 <input type="text"/>
+			        
+					</dd>
+					<dd class="loginbtn">
+						<input type="button" class="loginb" value="登陆">
+						<label>
+			                <input type="checkbox" checked="checked"/><span>次自动登陆</span>
+			            </label>
+					</dd>
+					<dd>
+						<a class="loginlink">忘记密码</a>
+					    <a class="loginlink">立即注册</a>
+					</dd>
+				</dl>
+			</div>
+			</div>
+		</li>
+		
+		<li><a href="#" class="header_link down_link">微博<i class="pull_down"></i></a>
+		<dl class="pulldownlist widthchange" >
+			<dd><a>私信</a></dd>
+			<dd><a>评论</a></dd>
+			<dd><a>@我</a></dd>
+		</dl></li>
+		<li><a href="#" class="header_link down_link">博客<i class="pull_down"></i></a>
+		<dl class="pulldownlist" >
+			<dd><a>博客评论</a></dd>
+			<dd><a>未读提醒</a></dd>
+		</dl></li>
+		<li><a href="#" class="header_link down_link">邮箱<i class="pull_down"></i></a>
+		<dl class="pulldownlist" >
+			<dd><a>免费邮箱</a></dd>
+			<dd><a>企业邮箱</a></dd>
+			
+		</dl>
+		</li>
+		<li><a href="#" class="header_link">网站导航</a></li>
+		
+	</ul>
+	
+	</div>
+	</div>
+	</div>
+	<div class="content comWidth">
+	<div class="search clearfix">
+	<div class="sina_logo fl"></div>
+	
+	<div class="searchbox fl">
+		<div class="searchboxleft fl"><h3>微博</h3>
+		<ul class="search_pulldown" >
+			<li><a>微博</a></li>
+			<li><a>新闻</a></li>
+			<li><a>图片</a></li>
+			<li><a>博客</a></li>
+			<li><a>视频</a></li>
+			<li><a>更多&gt;&gt;</a></li>
+		</ul>
+		
+		</div>
+		<div class="searchboxtype fl">
+			<span>请输入关键字</span>
+			<input type="text"/>
+			
+		</div>
+		<input type="button" class="searchboxbtn fl"/>
+			
+	</div>
+	<div class="weather fl"><span>北京</span><img src="images/sun.png"><span>晴 0~7℃</span></div>
+	<div class="jiandu fl"></div>
+	</div>
+	<div class="nav comWidth">
+		<div class="nav_1 first">
+		<dl>
+			<dd class="nav_firstword"><a href="#">新闻</a></dd>
+			<dd><a href="#">军事</a></dd>
+			<dd class="nav_special"><a href="#">社会</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">财经</a></dd>
+			<dd><a href="#">股票</a></dd>
+			<dd><a href="#">基金</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">科技</a></dd>
+			<dd><a href="#">手机</a></dd>
+			<dd><a href="#">探索</a></dd>
+		</dl>
+		
+		</div>
+		<div class="nav_1">
+		<dl>
+			<dd class="nav_firstword"><a href="#">体育</a></dd>
+			<dd><a href="#">英超</a></dd>
+			<dd class="nav_special"><a href="#">NBA</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">娱乐</a></dd>
+			<dd><a href="#">明星</a></dd>
+			<dd><a href="#">星座</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">汽车</a></dd>
+			<dd><a href="#">报价</a></dd>
+			<dd><a href="#">买车</a></dd>
+		</dl>
+		
+		</div>
+		<div class="nav_1">
+		<dl>
+			<dd class="nav_firstword"><a href="#">博客</a></dd>
+			<dd><a href="#">专栏</a></dd>
+			<dd class="nav_special"><a href="#">天气</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">视频</a></dd>
+			<dd><a href="#">综艺</a></dd>
+			<dd><a href="#">育儿</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">房产</a></dd>
+			<dd><a href="#">二手方</a></dd>
+			<dd><a href="#">家居</a></dd>
+		</dl>
+		
+		</div>
+		<div class="nav_1">
+		<dl>
+			<dd class="nav_firstword"><a href="#">读书</a></dd>
+			<dd><a href="#">历史</a></dd>
+			<dd class="nav_special"><a href="#">图片</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">教育</a></dd>
+			<dd><a href="#">健康</a></dd>
+			<dd><a href="#">中医</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">时尚</a></dd>
+			<dd><a href="#">女性</a></dd>
+			<dd><a href="#">收藏</a></dd>
+		</dl>
+		
+		</div>
+		<div class="nav_1">
+		<dl>
+			<dd class="nav_firstword"><a href="#">城市</a></dd>
+			<dd><a href="#">天津</a></dd>
+			<dd class="nav_special"><a href="#">园博</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">旅游</a></dd>
+			<dd><a href="#">航空</a></dd>
+			<dd><a href="#">出国</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">论坛</a></dd>
+			<dd><a href="#">交友</a></dd>
+			<dd><a href="#">SHOW</a></dd>
+		</dl>
+		
+		</div>
+		<div class="nav_1">
+		<dl>
+			<dd class="nav_firstword"><a href="#">游戏</a></dd>
+			<dd><a href="#">棋牌</a></dd>
+			<dd class="nav_special"><a href="#">页游</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">佛学</a></dd>
+			<dd><a href="#">高尔夫</a></dd>
+			<dd><a href="#">彩票</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">应用</a></dd>
+			<dd><a href="#">必备</a></dd>
+			<dd><a href="#">手游</a></dd>
+		</dl>
+		
+		</div>
+		<div class="nav_1 last">
+		<dl>
+			<dd class="nav_firstword"><a href="#">搜索</a></dd>
+			<dd><a href="#">客户端</a></dd>
+			<dd class="nav_special"><a href="#">微博</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">爱问</a></dd>
+			<dd><a href="#">客服</a></dd>
+			<dd><a href="#">邮箱</a></dd>
+		</dl>
+		<dl>
+			<dd class="nav_firstword"><a href="#">公益</a></dd>
+			<dd><a href="#">English</a></dd>
+			<dd><a href="#">导航</a></dd>
+		</dl>
+		
+		</div>
+		
+	</div>
+	<div class="house comWidth">
+		<ul>
+			<li><a href="#">不限购100席</a></li>
+			<li><a href="#">亦庄地标国锐金嵿</a></li>
+			<li><a href="#">地铁上盖品牌物业</a></li>
+			<li><a href="#">亿城江湾绿洲</a></li>
+			<li><a href="#">珠海横琴置业梦</a></li>
+			<li><a href="#">抄底三亚心小两居</a></li>
+			<li><a href="#">大兴美宅 93万起</a></li>
+			<li><a href="#">紫竹桥 3居放量</a></li>
+		</ul>
+	</div>
+	<div class="unicompic">
+		<a><img src="images/unicom.png"/></a>
+	</div>
+	
+	<div class="house1 comWidth">
+		<ul>
+			<li><a href="#">独家图解看房大全</a></li>
+			<li><a href="#">四季悦城周周送铺</a></li>
+			<li><a href="#">双十二特惠抢现房</a></li>
+			<li><a href="#">昌平核心119m²三居</a></li>
+			<li><a href="#">房山核心新盘抄底</a></li>
+			<li><a href="#">房山核心新盘抄底</a></li>
+			<li><a href="#">五环 99万微别墅</a></li>
+			<li><a href="#">刚需房开盘早知道</a></li>
+		</ul>
+	</div>
+	<div class="main comWidth clearfix">
+		<div class="leftarea">
+			<div class="ad_47"<a href="#"><img src="images/ad1.png" alt=""/></a></div>
+			<div class="ad_350"><a href="#"><img src="images/ad2.png" alt="" class=""/></a></div>
+			<div class="sina_product">
+				<div class="product_title"><h3>新浪产品</h3></div>
+				<div class="product_nav">
+					<ul class="product_pic">
+						<li><img src="images/blue.png"/></li>
+						<li><img src="images/yellow.png"/></li>
+						<li><img src="images/red.png"/></li>
+					</ul>
+					<ul class="product_info">
+						<li><a href="#">新浪财经</a></li>
+						<li><a href="#">新浪新闻</a></li>
+						<li><a href="#">新浪体育</a></li>
+					</ul>
+					<ul class="product_info noborder">
+						<li><a href="#">新浪阅读</a></li>
+						<li><a href="#">新浪秒拍</a></li>
+						<li><a href="#">新浪微博</a></li>
+					</ul>
+				</div>
+			</div>
+				<div class="sina_edu">
+				<div class="edu_nav clearfix">
+					<ul class="edu_banner clearfix">
+						<li class="edu_active">体育</li>
+						<li>外语</li>
+						<li>教育</li>
+						<li>精锐</li>
+					</ul>
+                </div>
+				<div class="edu_pic show"><img src="images/shendian.png"/>
+				<ul class="edu_fontul">
+					<li>中国榜样家长出炉：潮爸得奖成主流</li>
+					<li>教育did you know第二季视频全球首播</li>
+				</ul>
+				</div>
+				<div class="edu_pic"><img src="images/n2.jpg"/>
+				<ul class="edu_fontul">
+					<li>中国榜样家长出炉：潮爸得奖成主流</li>
+					<li>教育did you know第二季视频全球首播</li>
+				</ul>
+				</div>
+				<div class="edu_pic"><img src="images/n3.jpg"/>
+				<ul class="edu_fontul">
+					<li>中国榜样家长出炉：潮爸得奖成主流</li>
+					<li>教育did you know第二季视频全球首播</li>
+				</ul>
+				</div>
+				<div class="edu_pic"><img src="images/n4.jpg"/>
+				<ul class="edu_fontul">
+					<li>中国榜样家长出炉：潮爸得奖成主流</li>
+					<li>教育did you know第二季视频全球首播</li>
+				</ul>
+				</div>
+				
+			</div>
+			<div class="adpic">
+					<img src="images/leftadpic.png"/>
+			</div>
+			<div class="adpic1">
+			<img src="images/leftadpic1.png"/>
+			</div>
+		</div>
+		<div class="middlearea">
+			<div class="news_con">
+				  <div class="banner_bar">
+					<ul>
+						<li class="nobor active">视频</li>
+						<li>综艺</li>
+					</ul>
+				  </div>
+<!--第一屏-->
+				<div class="content_con show" >
+				  <div class="th_mid_pic">
+				    <p><img src="images/video.png"/></p>
+				    <p class="video2"><img src="images/video2.png"/></p>
+				  </div>
+				  <ul class="th_mid_news">
+					<li><a href="#" class="camera">新闻|毛泽东生平珍贵影像集</a></li>
+					<li><a href="#" class="camera">东湖梅岭毛泽东 歼20新涂装</a></li>
+					<li><a href="#" class="camera">安倍拜鬼 不想伤害中韩感情</a></li>
+					<li><a href="#" class="camera">辽宁舰高速回旋 贫困县豪楼</a></li>
+					<li><a href="#" class="camera">奔驰女被劫灌药 女生遭割喉</a></li>
+				</ul>
+				<ul class="th_mid_news mt12">
+					<li><a href="#" class="camera">新闻|毛泽东生平珍贵影像集</a></li>
+					<li><a href="#" class="camera">东湖梅岭毛泽东 歼20新涂装</a></li>
+					<li><a href="#" class="camera">安倍拜鬼 不想伤害中韩感情</a></li>
+					<li><a href="#" class="camera">辽宁舰高速回旋 贫困县豪楼</a></li>
+					<li><a href="#" class="camera">奔驰女被劫灌药 女生遭割喉</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#" class="camera">娱乐|王诗龄喂李云迪瓜子 《爸爸去哪五封催泪信》</a></li>
+					<li><a href="#" class="camera">王菲欲夺女儿李嫣抚养权 巩莉情史：险嫁摩纳哥亲王</a></li>
+					<li><a href="#" class="camera">日男星17年后惊觉儿子非亲生 小S遭二女儿催生儿子</a></li>
+					<li><a href="#" class="camera">搞笑|呆萌企鹅悲催瞬间 </a><a class="yellowfont">招聘制作、编辑、设计师</a></li>
+					<li><a href="#" class="camera">脱口秀|官员不上班照领工资 纪录|东湖梅岭毛泽东</a></li>
+					<li><a href="#" class="camera yellowfont">大片|毛泽东 零38度 烽火佳人</a> <a>记忆如何被操纵</a></li>
+					<li><a href="#" class="camera yellowfont">秒拍|佟大为享受滑雪好风光</a> <a>网曝幼儿园女老师虐童</a></li>
+				</ul>
+				</div>
+<!--第二屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				    <p><img src="images/video.png"/></p>
+				    <p class="video2"><img src="images/video2.png"/></p>
+				  </div>
+				<ul class="th_mid_news" >
+					<li><a href="#" class="camera">奔驰女被劫灌药 女生遭割喉</a></li>
+					<li><a href="#" class="camera">安倍拜鬼 不想伤害中韩感情</a></li>
+					<li><a href="#" class="camera">东湖梅岭毛泽东 歼20新涂装</a></li>
+					<li><a href="#" class="camera">辽宁舰高速回旋 贫困县豪楼</a></li>
+					<li><a href="#" class="camera">奔驰女被劫灌药 女生遭割喉</a></li>
+				</ul>
+				<ul class="th_mid_news mt12">
+					<li><a href="#" class="camera">新闻|毛泽东生平珍贵影像集</a></li>
+					<li><a href="#" class="camera">东湖梅岭毛泽东 歼20新涂装</a></li>
+					<li><a href="#" class="camera">安倍拜鬼 不想伤害中韩感情</a></li>
+					<li><a href="#" class="camera">辽宁舰高速回旋 贫困县豪楼</a></li>
+					<li><a href="#" class="camera">奔驰女被劫灌药 女生遭割喉</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#" class="camera">娱乐|王诗龄喂李云迪瓜子 《爸爸去哪五封催泪信》</a></li>
+					<li><a href="#" class="camera">中央举行纪念毛泽东诞辰120周年座谈会</a></li>
+					<li><a href="#" class="camera">日男星17年后惊觉儿子非亲生 小S遭二女儿催生儿子</a></li>
+					<li><a href="#" class="camera">搞笑|呆萌企鹅悲催瞬间 </a><a class="yellowfont">招聘制作、编辑、设计师</a></li>
+					<li><a href="#" class="camera">外交部回应安倍参拜靖国神社：采取措施纠正错误</a></li>
+					<li><a href="#" class="camera yellowfont">大片|毛泽东 零38度 烽火佳人</a> <a>记忆如何被操纵</a></li>
+					<li><a href="#" class="camera yellowfont">秒拍|佟大为享受滑雪好风光</a> <a>网曝幼儿园女老师虐童</a></li>
+				</ul>
+				</div>
+			</div>
+<!--猜你喜欢-->			
+				<div class="news_con mt12 hei">
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">
+							<span>猜你喜欢</span>
+							<a class="prev_link"></a>
+							<i>
+							<span class="btn_link guessactive"></span>
+							<span class="btn_link"></span>
+							</i>
+							<a class="next_link"></a>
+							</li>
+						<li>专栏</li>
+					</ul>
+					<a class="guessa">登录微博效果更佳</a>
+				</div>
+				<div class="content_con forturn mt15 show" >
+				<div class="container">
+				<ul class="th_mid_news wh">
+					<li><a href="#">1中央举行纪念毛泽东诞辰120周年座谈会</a></li>
+					<li><a href="#">安拜：参拜没有伤害中国和韩国意思</a></li>
+					<li><a href="#">农民自称康熙年间第一能臣后裔 公布先祖画像</a></li>
+					<li><a href="#">交警队长被曝与女属偷情被砍十余刀</a></li>
+					<li><a href="#">社科院：大连取代北京成为新“首堵”城市</a></li>
+					<li><a href="#">社科院：大连取代北京成为新“首堵”城市</a></li>
+					<li><a href="#">女子抱小孩上公交无人让座 司机停车7分钟</a></li>
+					<li class="special"><a href="#" class="yellowfont">看收藏名博辩知真假</a><a href="#"> 为您推荐27位星座达人</a></li>
+					<li class="fc"><a href="#">投资海淀|中关村国家示范区 海淀区1+10政策体系</a></li>
+
+					
+				</ul>
+				<ul class="th_mid_news wh">
+					<li><a href="#">2中央举行纪念毛泽东诞辰120周年座谈会</a></li>
+					<li><a href="#">安拜：参拜没有伤害中国和韩国意思</a></li>
+					<li><a href="#">农民自称康熙年间第一能臣后裔 公布先祖画像</a></li>
+					<li><a href="#">交警队长被曝与女属偷情被砍十余刀</a></li>
+					<li><a href="#">社科院：大连取代北京成为新“首堵”城市</a></li>
+					<li><a href="#">社科院：大连取代北京成为新“首堵”城市</a></li>
+					<li><a href="#">外交部回应安倍参拜靖国神社：采取措施纠正错误</a></li>
+					<li class="special"><a href="#" class="yellowfont">看收藏名博辩知真假</a><a> 为您推荐27位星座达人</a></li>
+					<li class="fc"><a href="#">投资海淀|中关村国家示范区 海淀区1+10政策体系</a></li>
+					
+				</ul>
+				
+				</div>
+				</div>
+				<div class="content_con mt15">
+				<ul class="th_mid_news">
+					<li><a href="#">3中央举行纪念毛泽东诞辰120周年座谈会</a></li>
+					<li><a href="#">安拜：参拜没有伤害中国和韩国意思</a></li>
+					<li><a href="#">农民自称康熙年间第一能臣后裔 公布先祖画像</a></li>
+					<li><a href="#">交警队长被曝与女属偷情被砍十余刀</a></li>
+					<li><a href="#">社科院：大连取代北京成为新“首堵”城市</a></li>
+					<li><a href="#">社科院：大连取代北京成为新“首堵”城市</a></li>
+					<li><a href="#">女子抱小孩上公交无人让座 司机停车7分钟</a></li>
+					<li><a href="#">外交部回应安倍参拜靖国神社：采取措施纠正错误</a></li>
+					<li><a href="#">交警队长被曝与女属偷情被砍十余刀</a></li>
+					
+				</ul>
+			</div>
+				</div>
+	<!--体育-->
+				<div class="news_con mt18">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">体育</li>
+						<li>NBA</li>
+						<li>体育视频</li>
+					</ul>
+					<a href="#" class="am">厦马</a>
+					<a href="#">网球</a>
+					<a href="#">赛车</a>
+					<a href="#">高尔夫</a>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+					<li class="nostyle"><a href="#">新浪体育手机客户端  劲爆高清花絮美图</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+				</ul>
+				</div>
+				<!--第三屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="the_right">
+<!--新闻-->
+			<div class="news_con">
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">新闻</li>
+						<li>天津新闻</li>
+						<li>专栏</li>
+					</ul>
+					<span id="time"></span>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+			<ul class="th_mid_news">
+					<li><a href="#">习近平在毛泽东诞辰120周年座谈会上的讲话 专题</a></li>
+					<li><a href="#" class="camera">策划:历史影像中的毛泽东 图刊:毛泽东珍贵瞬间</a></li>
+					<li><a href="#">策划:毛泽东与中国抉择 毛泽东像修版师:不是在造神</a></li>
+					<li><a href="#">日本首相参拜靖国神社 王毅召日大使:中方奉陪到底</a></li>
+					<li><a href="#">日政府称以私人立场参拜 国防部:后果日方自负</a></li>
+				</ul>
+				<ul class="th_mid_news mt12 clearfix">
+					<li><a href="#"><span>国内|</span>李克强：使困难群众生存有尊严生活有盼头</a></li>
+					<li><a href="#">卫计委提出行风建设九不准:不准违规接受捐赠</a></li>
+					<li><a href="#">国防部回应中国十天内连续两次洲际导弹试射</a></li>
+					<li><a href="#">京津辽等多地除夕高速不免费 部分省市愿意调整</a></li>
+					<li><a href="#">2013新浪年度观察之军事篇:如何面对一个甲午年</a></li>
+					<li><a href="#">社科院建议2016-2018年开始推行渐进延迟退休政策</a></li>
+					<li><a href="#">外交局原副局长齐平景被开除党籍公职</a></li>
+					<li><a href="#">新浪发布政策微博报告 77个常委微博组建国家队</a></li>
+					<li><a href="#">营改增扎实推进多重利好促进转型升级 互联网动向</a></li>
+					<li><a href="#">新浪科技2013年度风云榜评选 投票赢谷歌眼镜(进行中)</a></li>
+					<li><a href="#"><span>专栏|</span>安倍为何选择今日参拜 中国篮球再也耽误不起</a></li>
+					<li><span>国际|</span><a href="#" class="camera">土耳其十大城市爆发抗议要求总理台</a></li>
+				</ul>
+			
+				<ul class="th_mid_news mt15">
+					<li><a href="#"><span>财经|</span>国土部:不动产统一登记已有新时间表</a></li>
+					<li><a href="#">温州房价遭腰斩真相:祸根是民间债务危机加跟风降价</a></li>
+					<li><a href="#">康泰问题疫苗疑似生产环节污染 成本不足1元独享暴利</a></li>
+					<li><a href="#">我国特高压国家工程陷僵局 国家电网十二五规划难产</a></li>
+					<li><a href="#">超6成市民看涨房价 社科院:18.6%家庭拥有2套以上住房</a></li>
+					<li><a href="#"><span>科技|</span>工信部发虚拟运营商牌照 关于牌照的八问八答</a></li>
+					<li><a href="#">盘点IT产业的2013 科技年度风云榜评选:马云领先</a></li>
+					<li><a href="#">阿波罗登月计划大量珍贵照曝光 短吻鳄对决入侵缅甸蟒</a></li>
+					<li><a href="#"><span>时尚|</span>黄晓明美艳新欢 宋祖英赵雅芝贵气逼人</a></li>
+					<li><a href="#"><span>热点|</span>关注海外记者知天事 让红包飞 火热招商</a></li>
+					<li><a href="#"><span>关注|</span>玩竞猜赢全明星门票 微博之夜投票赢大奖</a></li>
+				</ul>
+				</div>
+				
+				<!--第二屏-->
+			<div class="content_con" >
+			<ul class="th_mid_news">
+					<li><a href="#">日本首相参拜靖国神社 王毅召日大使:中方奉陪到底</a></li>
+					<li><a href="#" class="camera">策划:历史影像中的毛泽东 图刊:毛泽东珍贵瞬间</a></li>
+					<li><a href="#">策划:毛泽东与中国抉择 毛泽东像修版师:不是在造神</a></li>
+					<li><a href="#">日本首相参拜靖国神社 王毅召日大使:中方奉陪到底</a></li>
+					<li><a href="#">日政府称以私人立场参拜 国防部:后果日方自负</a></li>
+				</ul>
+				<ul class="th_mid_news clearfix mt12">
+					<li><a href="#"><span>国内|</span>李克强：使困难群众生存有尊严生活有盼头</a></li>
+					<li><a href="#">卫计委提出行风建设九不准:不准违规接受捐赠</a></li>
+					<li><a href="#">国防部回应中国十天内连续两次洲际导弹试射</a></li>
+					<li><a href="#">京津辽等多地除夕高速不免费 部分省市愿意调整</a></li>
+					<li><a href="#">2013新浪年度观察之军事篇:如何面对一个甲午年</a></li>
+					<li><a href="#">社科院建议2016-2018年开始推行渐进延迟退休政策</a></li>
+					<li><a href="#">外交局原副局长齐平景被开除党籍公职</a></li>
+					<li><a href="#">新浪发布政策微博报告 77个常委微博组建国家队</a></li>
+					<li><a href="#">营改增扎实推进多重利好促进转型升级 互联网动向</a></li>
+					<li><a href="#">新浪科技2013年度风云榜评选 投票赢谷歌眼镜(进行中)</a></li>
+					<li><a href="#"><span>专栏|</span>安倍为何选择今日参拜 中国篮球再也耽误不起</a></li>
+					<li><span>国际|</span><a href="#" class="camera">土耳其十大城市爆发抗议要求总理台</a></li>
+				</ul>
+			
+				<ul class="th_mid_news mt12">
+					<li><a href="#"><span>财经|</span>国土部:不动产统一登记已有新时间表</a></li>
+					<li><a href="#">温州房价遭腰斩真相:祸根是民间债务危机加跟风降价</a></li>
+					<li><a href="#">康泰问题疫苗疑似生产环节污染 成本不足1元独享暴利</a></li>
+					<li><a href="#">我国特高压国家工程陷僵局 国家电网十二五规划难产</a></li>
+					<li><a href="#">超6成市民看涨房价 社科院:18.6%家庭拥有2套以上住房</a></li>
+					<li><a href="#"><span>科技|</span>工信部发虚拟运营商牌照 关于牌照的八问八答</a></li>
+					<li><a href="#">盘点IT产业的2013 科技年度风云榜评选:马云领先</a></li>
+					<li><a href="#">阿波罗登月计划大量珍贵照曝光 短吻鳄对决入侵缅甸蟒</a></li>
+					<li><a href="#"><span>时尚|</span>黄晓明美艳新欢 宋祖英赵雅芝贵气逼人</a></li>
+					<li><a href="#"><span>热点|</span>关注海外记者知天事 让红包飞 火热招商</a></li>
+					<li><a href="#"><span>关注|</span>玩竞猜赢全明星门票 微博之夜投票赢大奖</a></li>
+				</ul>
+				
+				</div>
+					<!--第三屏-->
+			<div class="content_con">
+			<ul class="th_mid_news">
+					<li><a href="#">策划:毛泽东与中国抉择 毛泽东像修版师:不是在造神</a></li>
+					<li><a href="#" class="camera">策划:历史影像中的毛泽东 图刊:毛泽东珍贵瞬间</a></li>
+					<li><a href="#">策划:毛泽东与中国抉择 毛泽东像修版师:不是在造神</a></li>
+					<li><a href="#">日本首相参拜靖国神社 王毅召日大使:中方奉陪到底</a></li>
+					<li><a href="#">日政府称以私人立场参拜 国防部:后果日方自负</a></li>
+				</ul>
+				<ul class="th_mid_news mt12 clearfix">
+					<li><a href="#"><span>国内|</span>李克强：使困难群众生存有尊严生活有盼头</a></li>
+					<li><a href="#">卫计委提出行风建设九不准:不准违规接受捐赠</a></li>
+					<li><a href="#">国防部回应中国十天内连续两次洲际导弹试射</a></li>
+					<li><a href="#">京津辽等多地除夕高速不免费 部分省市愿意调整</a></li>
+					<li><a href="#">2013新浪年度观察之军事篇:如何面对一个甲午年</a></li>
+					<li><a href="#">社科院建议2016-2018年开始推行渐进延迟退休政策</a></li>
+					<li><a href="#">外交局原副局长齐平景被开除党籍公职</a></li>
+					<li><a href="#">新浪发布政策微博报告 77个常委微博组建国家队</a></li>
+					<li><a href="#">营改增扎实推进多重利好促进转型升级 互联网动向</a></li>
+					<li><a href="#">新浪科技2013年度风云榜评选 投票赢谷歌眼镜(进行中)</a></li>
+					<li><a href="#"><span>专栏|</span>安倍为何选择今日参拜 中国篮球再也耽误不起</a></li>
+					<li><span>国际|</span><a href="#" class="camera">土耳其十大城市爆发抗议要求总理台</a></li>
+				</ul>
+			
+				<ul class="th_mid_news">
+					<li><a href="#"><span>财经|</span>国土部:不动产统一登记已有新时间表</a></li>
+					<li><a href="#">温州房价遭腰斩真相:祸根是民间债务危机加跟风降价</a></li>
+					<li><a href="#">康泰问题疫苗疑似生产环节污染 成本不足1元独享暴利</a></li>
+					<li><a href="#">我国特高压国家工程陷僵局 国家电网十二五规划难产</a></li>
+					<li><a href="#">超6成市民看涨房价 社科院:18.6%家庭拥有2套以上住房</a></li>
+					<li><a href="#"><span>科技|</span>工信部发虚拟运营商牌照 关于牌照的八问八答</a></li>
+					<li><a href="#">盘点IT产业的2013 科技年度风云榜评选:马云领先</a></li>
+					<li><a href="#">阿波罗登月计划大量珍贵照曝光 短吻鳄对决入侵缅甸蟒</a></li>
+					<li><a href="#"><span>时尚|</span>黄晓明美艳新欢 宋祖英赵雅芝贵气逼人</a></li>
+					<li><a href="#"><span>热点|</span>关注海外记者知天事 让红包飞 火热招商</a></li>
+					<li><a href="#"><span>关注|</span>玩竞猜赢全明星门票 微博之夜投票赢大奖</a></li>
+				</ul>
+				
+				</div>
+				
+				
+				<div class="news_con mt18">
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">视频</li>
+						<li>新车</li>
+						<li>购车</li>
+					</ul>
+				</div>
+				<div class="content_con show">
+				<div class="th_mid_pic">
+				<p><img src="images/car1.png" class="sportpic"/></p>
+				<p class="video2"><img src="images/car2.png" class="sportpic"/></p>
+				</div>
+				<ul class="th_mid_news">
+					<li><a href="#">北京汽车BJ40前瞻28日上市或16万</a></li>
+					<li><a href="#">奥迪注册SQ2/SQ4/Q9多款SUV商标</a></li>
+					<li><a href="#">英菲尼迪推微车Q10 竞争MINI(图)</a></li>
+					<li><a href="#">Jeep自由光将上市不超40万 试驾</a></li>
+					<li><a href="#">捷豹为华推加长版XF PK宝马5系Li</a></li>
+					<li><a href="#">众泰明年推两款新车 含首款B级车</a></li>
+					<li><a href="#">丰田86推四门版搭斯巴鲁增压引擎</a></li>
+					<li><a href="#">六款20万元以内自主品牌SUV推荐</a></li>
+					</ul>
+					<ul class="th_mid_news">
+					<li><a href="#">换代奇骏明年国产轴距近汉兰达 标致推408GT或2016上</a></li>
+					<li><a href="#">大众Mama Up!概念为婴儿妈妈设计 评测:西亚特伊比飒</a></li>
+					<li><a href="#">新Jeep指南者等配9速变速器 凯迪拉克ATS双门PK宝马4</a></li>
+					<li><a href="#">年终盘点10万级家轿最高降幅3万 讴歌TLX明年引入国内</a></li>
+					<li><a href="#">试驾图解国产高尔夫7 冰雪试驾福特探险者</a></li>
+					<li><a href="#">全新锐志震撼来袭 一汽丰田乐驾嘉年华</a></li>
+				</ul>
+				
+				
+				</div>
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/car1.png" class="sportpic"/></p>
+				<p class="video2"><img src="images/car2.png" class="sportpic"/></p>
+				</div>
+				<ul class="th_mid_news">
+					<li><a href="#">北京汽车BJ40前瞻28日上市或16万</a></li>
+					<li><a href="#">奥迪注册SQ2/SQ4/Q9多款SUV商标</a></li>
+					<li><a href="#">英菲尼迪推微车Q10 竞争MINI(图)</a></li>
+					<li><a href="#">Jeep自由光将上市不超40万 试驾</a></li>
+					<li><a href="#">捷豹为华推加长版XF PK宝马5系Li</a></li>
+					<li><a href="#">众泰明年推两款新车 含首款B级车</a></li>
+					<li><a href="#">丰田86推四门版搭斯巴鲁增压引擎</a></li>
+					<li><a href="#">六款20万元以内自主品牌SUV推荐</a></li>
+					</ul>
+					<ul class="th_mid_news">
+					<li><a href="#">换代奇骏明年国产轴距近汉兰达 标致推408GT或2016上</a></li>
+					<li><a href="#">大众Mama Up!概念为婴儿妈妈设计 评测:西亚特伊比飒</a></li>
+					<li><a href="#">新Jeep指南者等配9速变速器 凯迪拉克ATS双门PK宝马4</a></li>
+					<li><a href="#">年终盘点10万级家轿最高降幅3万 讴歌TLX明年引入国内</a></li>
+					<li><a href="#">试驾图解国产高尔夫7 冰雪试驾福特探险者</a></li>
+					<li><a href="#">全新锐志震撼来袭 一汽丰田乐驾嘉年华</a></li>
+				</ul>
+				
+				
+				</div>
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/car1.png" class="sportpic"/></p>
+				<p class="video2"><img src="images/car2.png" class="sportpic"/></p>
+				</div>
+				<ul class="th_mid_news">
+					<li><a href="#">北京汽车BJ40前瞻28日上市或16万</a></li>
+					<li><a href="#">奥迪注册SQ2/SQ4/Q9多款SUV商标</a></li>
+					<li><a href="#">英菲尼迪推微车Q10 竞争MINI(图)</a></li>
+					<li><a href="#">Jeep自由光将上市不超40万 试驾</a></li>
+					<li><a href="#">捷豹为华推加长版XF PK宝马5系Li</a></li>
+					<li><a href="#">众泰明年推两款新车 含首款B级车</a></li>
+					<li><a href="#">丰田86推四门版搭斯巴鲁增压引擎</a></li>
+					<li><a href="#">六款20万元以内自主品牌SUV推荐</a></li>
+					</ul>
+					<ul class="th_mid_news">
+					<li><a href="#">换代奇骏明年国产轴距近汉兰达 标致推408GT或2016上</a></li>
+					<li><a href="#">大众Mama Up!概念为婴儿妈妈设计 评测:西亚特伊比飒</a></li>
+					<li><a href="#">新Jeep指南者等配9速变速器 凯迪拉克ATS双门PK宝马4</a></li>
+					<li><a href="#">年终盘点10万级家轿最高降幅3万 讴歌TLX明年引入国内</a></li>
+					<li><a href="#">试驾图解国产高尔夫7 冰雪试驾福特探险者</a></li>
+					<li><a href="#">全新锐志震撼来袭 一汽丰田乐驾嘉年华</a></li>
+				</ul>
+				
+				
+				</div>
+							
+			</div>
+			</div>
+
+			</div>
+			</div>
+<!--广告图片占整行-->
+	<div class="comWidth mt12"><img src="images/ad3.gif" alt=""/></div>
+	
+	<div class="main comWidth mt30 clearfix">
+	<div class="leftarea">
+    <div class="music_box">
+				<div class="music_title"><h3>乐库</h3></div>
+				<ul class="music_list">
+					<li><a href="#">贾乃亮-愿得一人心</a> <a href="#">吉克隽逸全新单曲</a></li>
+					<li><a href="#">张杰2013《爱，不解释</a> <a href="#">全碟真情呈现</a></li>
+					<li><a href="#">满江《心碎北京》</a> <a href="#">金志文《梦想 家》</a></li>
+                    <li><a href="#">音乐人|立刻入驻</a> <a href="#">张阿牧</a> <a href="#" class="yellowfont">张蔷新单曲</a></li>
+                </ul>
+			</div>
+	
+	<div class="adbox">
+		<img src="images/tmall.gif" alt=""/>
+	</div>
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">娱乐</li>
+						<li>八卦</li>
+						<li>大片</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/gossip.gif" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				<!--第三屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">财经</li>
+						<li>股票</li>
+						<li>理财</li>
+					</ul>
+					<div class="search_stock fr"><span>搜股票</span></div>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/stock.gif" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				<!--第三屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+<!--我爱看图-->
+	<div class="picbox comWidth mt15">
+	<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">我爱看图</li>
+						<li>猜你喜欢</li>
+					</ul>
+					
+				</div>
+	<div class="content_con wh100 show" >
+    <ul class="allpic clearfix">
+    <li><img src="images/p1.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p2.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p3.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p4.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p5.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+    <li><img src="images/n1.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n2.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n3.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n4.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n1.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p2.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p1.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p3.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p4.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p5.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+    <li><img src="images/fashion.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p1.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p2.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/leftadpic.png" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/leftadpic1.png" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   </ul>
+   <div class="btn btn_l"></div>
+    <div class="btn btn_r"></div>
+    </div>
+    	<div class="content_con wh100" >
+    <ul class="allpic clearfix">
+    <li><img src="images/p1.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p2.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p3.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p4.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p5.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+    <li><img src="images/n1.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n2.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n3.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n4.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/n1.jpg" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p2.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p1.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p3.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p4.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p5.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+    <li><img src="images/fashion.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p1.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/p2.gif" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/leftadpic.png" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   	<li><img src="images/leftadpic1.png" alt=""/><div class="adbox1">试驾图解Jeep风光</div></li>
+   </ul>
+   <div class="btn btn_l"></div>
+    <div class="btn btn_r"></div>
+    </div>
+    <div class="num">
+    <ul>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+    </ul>
+    </div>
+   </div>
+
+
+
+
+		<div class="main comWidth mt30 clearfix">
+	<div class="leftarea">
+    <div class="music_box">
+				<div class="music_title"><h3>博主订阅</h3></div>
+				<ul class="music_list">
+					<li><a href="#">贾乃亮-愿得一人心</a> <a href="#">吉克隽逸全新单曲</a></li>
+					<li><a href="#">张杰2013《爱，不解释</a> <a href="#">全碟真情呈现</a></li>
+					<li><a href="#">满江《心碎北京》</a> <a href="#">金志文《梦想 家》</a></li>
+					<li><a href="#">贾乃亮-愿得一人心</a> <a href="#">吉克隽逸全新单曲</a></li>
+                    <li class="nosquare"><a href="#">音乐人|立刻入驻</a> <a href="#">张阿牧</a> <a href="#" class="yellowfont">张蔷新单曲</a></li>
+                </ul>
+
+			</div>
+	            <p class="mt12 ml10"><a href="#">贾乃亮-愿得一人心</a> <a href="#">吉克隽逸全新单曲</a></p>
+	      <div class="ad_noodle">
+		    <img src="images/ad_noodle.gif" alt=""/>
+	     </div>
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">博客</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/blog.gif"/><div class="sm_pic_cap">街拍台湾艳遇胜地</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">读书</li>
+						<li>小说</li>
+					</ul>
+					<div class="search_stock fr"><span>搜书</span></div>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/read.gif"/><div class="sm_pic_cap">救入水少妇入官场</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				<!--第三屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="mt15 comWidth"><img src="images/ad4.gif" alt=""/></div>	
+
+
+
+	<div class="main comWidth mt30 clearfix">
+	<div class="leftarea">
+    <div class="music_box">
+				<div class="music_title"><h3>探索趣图</h3></div>
+				<div class="discoverypic"><img src="images/animal.gif"/>
+					 <p>2013年轻摄影师获奖佳作：雪中的狐狸</p>
+				</div>
+				<ul class="music_list">
+					<li><a href="#">加两勇士22米高瀑布跃挑战玩命特技</a></li>
+					<li><a href="#">南非大白鲨跃出海面疯狂捕食海豹</a></li>
+					<li><a href="#">全球火山喷发壮景：火山灰巨浪冲云霄</a></li>
+					<li><a href="#">摄影师作品：精彩野生动物摄影作品(图)</a></li>
+                </ul>
+
+
+
+
+			</div>
+	      <div class="mt15">
+		    <img src="images/fashion.gif" alt=""/>
+	     </div>
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">科技</li>
+						<li>探索</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/star.gif"/><div class="sm_pic_cap">精美星空照片</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+
+				</ul>
+				</div>
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/mobile.gif"/><div class="sm_pic_cap">年底压轴手机新品</div></p>
+				</div>
+
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+
+				</ul>
+				</div>
+				
+			</div>
+			<div class="game clearfix">
+					<ul class="game_banner clearfix">
+						<li class="game_active">游戏</li>
+						<li>新网游</li>
+						<li>新手卡</li>
+						<li>有奖活动</li>
+						<li>美女COS</li>
+					</ul>
+					<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/star.gif"/><div class="sm_pic_cap">精美星空照片</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+			</div>
+              </div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">读书</li>
+						<li>小说</li>
+					</ul>
+					<div class="search_stock fr"><span>搜书</span></div>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/mobile.gif"/><div class="sm_pic_cap">年底压轴手机新品</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/mobile.gif"/><div class="sm_pic_cap">年底压轴手机新品</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+				</ul>
+				</div>
+				
+			</div>
+				<div class="game clearfix">
+					<ul class="game_banner android clearfix">
+						<li class="game_active ">应用中心</li>
+						<li>安卓应用</li>
+						<li>安卓游戏</li>
+						<li>有奖活动</li>
+						<li>装机必备</li>
+					</ul>
+					<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/android.gif"/><div class="sm_pic_cap">精美星空照片</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+			</div>
+              </div>
+		</div>
+	</div>
+	<div class="main comWidth mt15 clearfix">
+	<div class="leftarea">
+            <div class="music_box">
+				<div class="music_title"><h3>历史图库</h3></div>
+				<div class="his_pic"><img src="images/history.gif"/><div class="his_cap">旧照回顾春运: 我们挤了50余年</div></div>
+            </div>
+	      <div class="ad_camel">
+		    <img src="images/ad_camel.gif" alt=""/>
+	     </div>
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">历史</li>
+						<li>文化</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/his_person.gif"/><div class="sm_pic_cap">时代封面毛泽东</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">军事</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/mobile.gif"/><div class="sm_pic_cap">年底压轴手机新品</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<div class="main comWidth mt15 clearfix">
+	<div class="leftarea">
+    <div class="music_box">
+				<div class="music_title"><h3>行业动态</h3></div>
+				<ul class="music_list">
+					<li><a href="#">气质不凡绝妙签名</a></li>
+					<li><a href="#">精彩你的手机生活</a></li>
+					<li><a href="#">让草根推举草根</a></li>
+					<li><a href="#">精彩生活快来看</a></li>
+					<li><a href="#">精彩生活快来看</a></li>
+                </ul>
+        </div>
+	      
+	      <div class="ad_edu mt15">
+		    <img src="images/ad_edu.gif" alt=""/>
+	     </div>
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">社会</li>
+						<li>公益</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/soc_pic.gif"/><div class="sm_pic_cap">女生发背影照征友</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">游戏</li>
+						<li>看游戏</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/read.gif"/><div class="sm_pic_cap">救入水少妇入官场</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="main comWidth mt15 clearfix">
+	<div class="leftarea">
+    <div class="music_box">
+				<div class="music_title"><h3>热点微关注</h3></div>
+				<ul class="music_list">
+					<li><a href="#">揭秘“小哥”费玉清不为人知的癖好</a></li>
+					<li><a href="#">胜似天堂的美丽地方盘点：令人向往</a></li>
+					<li><a href="#">ESPN历年经典NBA封面似回经典青春</a></li>
+					<li><a href="#">接骚扰电话挣钱？小伙伴们震惊了！</a></li>
+					<li><a href="#">接骚扰电话挣钱？小伙伴们震惊了！</a></li>
+					<li class="noback"><a href="#">网民神解释惨叫鸡设计初衷令人捧腹</a></li>
+					<li class="noback"><a href="#">世卫组织更新人类最新十大死亡原因</a></li>
+					<li class="noback"><a href="#">“方便面君”小浣熊莫名再次走红</a></li>
+					<li class="noback"><a href="#">好声音PK快乐男声 你更喜欢哪个？</a></li>
+					<li class="noback"><a href="#">盛夏消暑神水果西瓜你吃对了没有</a></li>
+
+                </ul>
+        </div> 
+</div>
+              
+               <div class="middlearea">
+                  <div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">商讯</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/businf.gif"/><div class="sm_pic_cap">已售出：13件</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+				</ul>
+				</div>
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">资讯</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/infor.gif"/><div class="sm_pic_cap">教你28天自然祛斑</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+				</ul>
+				</div>
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+<!--广告 一号店 -->
+	<div class="mt15 comWidth"><img src="images/ad5.gif" alt=""/></div>	
+
+	<div class="main comWidth mt25 clearfix">
+	<div class="leftarea">
+    <div><img src="images/ad_tb.gif" alt=""/></div>
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">女性</li>
+						<li>情感</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/pretty.gif"/><div class="sm_pic_cap">性感美人沐浴阳光</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con">
+                <div class="th_mid_pic">
+				<p><img src="images/apartment.gif"/><div class="sm_pic_cap">滨海新区发居住证</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar">
+					<ul class="clearfix fl">
+						<li class="nobor active">房产</li>
+						<li>二手房</li>
+						<li>家居</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show">
+				<div class="th_mid_pic">
+				<p><img src="images/apartment.gif"/><div class="sm_pic_cap">滨海新区发居住证</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<!--第三屏-->
+				<div class="content_con">
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="main comWidth mt25 clearfix">
+	<div class="leftarea">
+    <div class="music_box clearfix">
+				<div class="music_title"><h3>新浪微课堂</h3></div>
+				<div class="clearfix">
+				<div class="micro_class fl clearfix"><img src="images/queen.gif"/></div>
+				<div class="class_tit fr">
+					<p>英国女生2015圣诞致词</p>
+					<p><input type="button"  class="learn_btn" value="更多课程"/></p>
+				</div>
+			</div>
+				<div class="clearfix mt15 mb25"><a href="#" class="camera">超级大国兴衰史 60秒动画读懂经济学</a></div>
+				<!--
+				<ul class="music_list">
+					<li><a href="#">加两勇士22米高瀑布跃挑战玩命特技</a></li>
+					<li><a href="#">南非大白鲨跃出海面疯狂捕食海豹</a></li>
+					<li><a href="#">全球火山喷发壮景：火山灰巨浪冲云霄</a></li>
+					<li><a href="#">摄影师作品：精彩野生动物摄影作品(图)</a></li>
+                </ul>
+            -->
+
+
+
+
+			</div>
+	      <div class="mt22">
+		    <img src="images/ad_shoes.gif" alt=""/>
+	     </div>
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">教育</li>
+						<li>出国</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/edu.gif"/><div class="sm_pic_cap">学生量三围备艺考</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">育儿</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/teach.gif"/><div class="sm_pic_cap">单亲妈的艰难生活</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+				</ul>
+				</div>
+				<!--第二屏-->
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				<!--第三屏-->
+				<div class="content_con" >
+				<div class="th_mid_pic">
+				<p><img src="images/sport.png" class="sportpic"/></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+				</ul>
+				<ul class="th_mid_news">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+					<li><a href="#" class="camera">伊布法甲半程全进球 贝尔皇马全进球 尤文年度10佳</a></li>
+					<li><a href="#">男子买彩中1821万被绑架 连续井喷!双色球爆28注277万</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="mt15 comWidth"><img src="images/ad6.gif" alt=""/></div>	
+	<div class="main comWidth mt15 clearfix">
+	<div class="leftarea">
+    <div class="music_box">
+				<div class="music_title"><h3>佛学</h3></div>
+				<div>
+				  <div class="clearfix">
+                  <div class="budd fl"><img src="images/budd.gif" alt=""/></div>
+                  <div class="budd_tit fl">
+                     <h3>中国现存古代大佛</h3>
+                     <p><a hre="#">佛经如何看雾霾的因果</a></p>
+                     <p><a hre="#">佛法与宗教哲学的差别</a></p>
+                  </div>
+				</div>
+			</div>
+				<ul class="music_list clearfix">
+					<li><a href="#">东林寺2013年冬季21天佛七法会解七圆满</a></li>
+					<li><a href="#">第11届吴越佛教学术研讨会暨佛教艺术展</a></li>
+					<li><a href="#">大佛禅院《师父去哪儿》禅修特训营开营</a></li>
+					<li class="noback"><a href="#">常识|佛教唯识与哲学唯心区别 如何回向</a></li>
+					<li class="noback"><a href="#">开示|怎样使信心不坏 信心是学佛的根本</a></li>
+					<li class="noback"><a href="#">学佛|病中见佛记 电子专家的学佛出家路</a></li>
+					<li class="noback"><a href="#">文化|孔雀石苦行阿罗汉 千手观音唐卡赏</a></li>
+					<li class="noback"><a href="#">素食|枸浸西洋菜 益气参枣汤 素佛跳墙</a></li>
+
+                </ul>
+
+
+
+
+
+
+        </div> 
+</div>
+<div class="middlearea">
+<div class="news_con">
+
+				<div class="banner_bar">
+					<ul>
+						<li class="nobor active">宠物 美食</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic ef">
+				<p><img src="images/food.gif"/><div class="sm_pic_cap">圣诞节的甜蜜美食</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+				</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="the_right">
+
+		<div class="news_con">
+
+				<div class="banner_bar ">
+					<ul class="clearfix fl">
+						<li class="nobor active">星座</li>
+					</ul>
+				</div>
+				<!--第一屏-->
+				<div class="content_con show" >
+				<div class="th_mid_pic">
+				<p><img src="images/constella.gif"/><div class="sm_pic_cap">12星座一周运势</div></p>
+				</div>
+				
+				<ul class="th_mid_news">
+					<li><a href="#">英超-曼城2-1胜利物浦距榜首1分</a></li>
+					<li><a href="#">鲁尼传射曼联3球3-2逆转5连胜</a></li>
+					<li><a href="#">沃尔科特两球阿森纳3-1返榜首</a></li>
+					<li><a href="#">阿轧尔绝杀切尔西主场3连胜 视频</a></li>
+					
+				</ul>
+				<ul class="th_mid_news mt5">
+					<li><a href="#">正视频播灰熊VS火箭 全明星票迁II:詹皇居首 视频</a></li>
+					<li><a href="#">中超-曝卡洛斯或执教国安 于大宝自曝曾两拒恒大求购</a></li>
+					<li><a href="#">巴媒曝鲁能追巴甲金靴 粤媒曝富力将截胡恒大两大目标</a></li>
+					<li><a href="#">CBA-外援欠薪案广东败诉 FIBA裁定需赠给球员18万美元</a></li>
+					<li><a href="#">张亚东:孙场参观豪车非试驾 京媒:错误和成绩总选成绩</a></li>
+					<li><a href="#">林丹3句不知道否认试水娱乐圈 戴利半裸穿彩虹围裙(图)</a></li>
+					<li><a href="#">博客-苏群：中国篮球再耽误不起 专栏-国安在恒大阴影</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="comWidth clearfix mt15">
+	<div class="sina_city clearfix">
+		<div class="city_tit fl">新浪城市</div>
+		<div class="city_name fl">
+	    <a href="#">上海</a><a href="#">天津</a><a href="#">重庆</a><a href="#">广东</a><a href="#">河南</a><a href="#">四川</a><a href="#">福建</a>
+	    <a href="#">闽南</a><a href="#">浙江</a><a href="#">江苏</a><a href="#">河北</a><a href="#">湖北</a><a href="#">湖南</a><a href="#">陕西</a>
+	    <a href="#">辽宁</a><a href="#">黑龙江</a><a href="#">安徽</a><a href="#">江西</a><a href="#">吉林</a> <a href="#">山西</a><a href="#">海南</a>
+	    <a href="#">山东</a><a href="#">大连</a><a href="#">无锡</a><a href="#">冰城</a><a href="#">西安</a><a href="#">青岛</a><a href="#">石家庄</a>
+	    <a href="#">泰兴</a><a href="#">射阳</a><a href="#">启东</a><a href="#">六合</a><a href="#">靖江</a><a href="#">海安</a><a href="#">海门</a>
+	    <a href="#">上虞</a><a href="#">义乌</a><a href="#">尚志</a><a href="#">八卦洲</a><a href="#">邯郸</a>[公告声明]
+     </div>
+	</div>
+	<div class="invest">
+		<div class="invest_tit fl">投资热区</div>
+		<div class="invest_name fl">
+		<a href="#">上海</a><a href="#">海门港新区</a><a href="#">南通产研院</a><a href="#">浐灞生态区 </a><a href="#">冰雪大世界</a></div>     
+	</div>
+</div>
+<div class="mt15 comWidth"><img src="images/ad7.gif" alt=""/></div>	
+<div class="sina_infor comWidth">
+	<a href="#">新浪简介</a> ┊ <a href="#">About Sina</a> ┊ <a href="#">广告服务</a> ┊ <a href="#">联系我们</a> ┊ <a href="#">诚聘英才</a> ┊ <a href="#">网站律师</a> ┊ <a href="#">SINA English</a> ┊ <a href="#">注册</a> ┊ <a href="#">产品答疑</a>
+</div>
+<div class="copyright comWidth">Copyright ©1996-2013 SINA Corporation, All Rights Reserved</div>
+<div class="wi comWidth clearfix" >
+	<a href=""><img src="images/wi1.gif" alt=""/></a><a href=""><img src="images/wi2.gif" alt=""/></a><a href=""><img src="images/wi3.gif" alt=""/></a><a href=""><img src="images/wi4.gif" alt=""/></a><a href=""><img src="images/wi5.gif" alt=""/></a><a href=""><img src="images/wi6.gif" alt=""/></a><a href=""><img src="images/wi7.gif" alt=""/></a><a href=""><img src="images/wi8.gif" alt=""/></a><a href=""><img src="images/wi9.gif" alt=""/></a></div>
+
+<div class="fontinfor  comWidth">
+<p>隐私保护　新浪公司　版权所有　京ICP证000007</p>
+<p>客户服务热线：4006900000　文明办网文明上网举报电话：010-62646869　举报邮箱：jubao@vip.sina.com</p>
+ 
+<p class="mt30">京网文[2011]0407-139号　新出网许（京）字009号　网络视听许可证0105082号　互联网新闻信息服务许可</p>
+<p>国家药监局（京）-经营性-2009-0011　京教研[2002]7号　电信业务审批[2001]字第379号</p>
+<p>增值电信业务经营许可证B2-20090108　电信与信息服务业务经营许可证000007号　京卫网审[2012]第0046号</p>
+<p>广播电视节目制作经营许可证（京）字第828号 甲测资字11002019 京公网安备110000000016号</p>
+</div>
+</body>
+<script script="text/javascript" src="js/js.js"></script>
+</html>
