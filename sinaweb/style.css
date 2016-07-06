@@ -30,7 +30,6 @@ ul, ol { list-style: none; }
 
 /* 重置文本格式元素 */
 a { text-decoration: none; }
-a:hover { text-decoration: underline; }
 
 abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
     border-bottom: 1px dotted;
@@ -294,17 +293,20 @@ html { overflow-y: scroll; }
 	background:url(images/pulldown.png) 59px center no-repeat;
 }
 .search_pulldown{
-	  z-index:1000;
-	 display:inline-block;
+	font-size:12px;
+    display:none;
+	z-index:1000;
+	
 	position:absolute;
 	
 	left:-1px;
 	border:1px solid  #c9c9c9;
 	border-bottom:0;
 	background:#ffffff;
+	
 }
 .search_pulldown li{
-	display:none;
+	
 	width:75px;
 	line-height:30px;
 	height:30px;
@@ -313,7 +315,9 @@ html { overflow-y: scroll; }
 	cursor:pointer;
 	
 }
+
 .search_pulldown li:hover{
+	color:#ff8400;
 	background-color:#fff6dd;
 }
 .searchdownlink{
@@ -326,7 +330,6 @@ html { overflow-y: scroll; }
 	border:1px solid #c9c9c9;
 	width:300px;
 	height:33px;
-	
 	position:relative;
 	margin-top:72px;
 }
@@ -351,11 +354,11 @@ html { overflow-y: scroll; }
 	
 	
 }
-.searchboxbtn{
-	 display:inline-block;
+.searchboxbtn input{
 	width:67px;
-	height:38px;
-	background:url(images/searchbtn.png) no-repeat;
+	height:35px;
+	
+	background:url(images/searchbtn.gif) no-repeat;
 	margin-top:72px;
 }
 .weather{

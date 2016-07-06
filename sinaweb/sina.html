@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <title>新浪首页</title>
-<script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 
 <link style="text/css" rel="stylesheet" href="style.css">
 
@@ -71,7 +71,7 @@
 					</dd>
 					<dd>
 						<a class="loginlink">忘记密码</a>
-					    <a class="loginlink">立即注册</a>
+					    <a href="register.html" target="_blank" class="loginlink">立即注册</a>
 					</dd>
 				</dl>
 			</div>
@@ -109,7 +109,7 @@
 	
 	<div class="searchbox fl">
 		<div class="searchboxleft fl"><h3>微博</h3>
-		<ul class="search_pulldown" >
+		<ul class="search_pulldown" style="display:none">
 			<li><a>微博</a></li>
 			<li><a>新闻</a></li>
 			<li><a>图片</a></li>
@@ -124,11 +124,13 @@
 			<input type="text"/>
 			
 		</div>
-		<input type="button" class="searchboxbtn fl"/>
-			
+		<div class="searchboxbtn fl">
+		<input type="button"/>
+	    </div>
 	</div>
 	<div class="weather fl"><span>北京</span><img src="images/sun.png"><span>晴 0~7℃</span></div>
 	<div class="jiandu fl"></div>
+	</div>
 	</div>
 	<div class="nav comWidth">
 		<div class="nav_1 first">
@@ -271,7 +273,7 @@
 			<li><a href="#">紫竹桥 3居放量</a></li>
 		</ul>
 	</div>
-	<div class="unicompic">
+	<div class="unicompic comWidth">
 		<a><img src="images/unicom.png"/></a>
 	</div>
 	

@@ -12,13 +12,20 @@ $(function(){
 			$(this).children('.pulldownlist').css('display','none');
 		})}
 		
-	/*搜索框下拉菜单*/
-		$('.searchboxleft').mouseover(function(){
+	/*搜索框下拉菜单
+	$('.searchboxleft').click(function(){
 			$('.search_pulldown').css('display','block');
 		})
-		$('.searchboxleft').mouseout(function(){
+		$('body:not(:.searchboxleft)').click(function(){
 			$('.search_pulldown').css('display','none');
 		})
+		
+		*/
+		$('.searchboxleft').hover(function(){
+			$('.search_pulldown').css('display','block');
+		},(function(){
+			$('.search_pulldown').css('display','none');
+		}))
     /*获取时间*/
 		var oTime=document.getElementById('time');
 		
@@ -233,7 +240,8 @@ $('.loginclose').click(function(){
   	})
 	}
 
-	
+
+
 })
 	
 
